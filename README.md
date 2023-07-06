@@ -30,7 +30,8 @@ MY RIGHTS is an Android application that provides information about human rights
 
 ## Screenshots
 
-(![1](https://github.com/Agarwal16/My-Rights/assets/106222712/7b8be7f6-aadc-452f-a840-464534fdec93)(![2](https://github.com/Agarwal16/My-Rights/assets/106222712/80bea582-f33b-42e4-8eec-a15dc98ca67d)(![3](https://github.com/Agarwal16/My-Rights/assets/106222712/5a4a28ee-cae2-4f0c-96f2-b12e99fba174)(![4](https://github.com/Agarwal16/My-Rights/assets/106222712/afd0e03f-4b83-4c65-859b-6b05119948bc)(![5](https://github.com/Agarwal16/My-Rights/assets/106222712/3e1e6329-2372-4163-8e90-6ff28b891d63)(![6](https://github.com/Agarwal16/My-Rights/assets/106222712/9d4af7d4-76d4-41b3-95bc-1b3a327b2c33)(![7](https://github.com/Agarwal16/My-Rights/assets/106222712/3b5a533c-354b-4035-9ffc-fc6f757a9faa)
+![image4](https://github.com/Agarwal16/My-Rights/assets/106222712/545fb0e1-bc2f-41a5-9a4f-639eb1575e8f)
+![image5](https://github.com/Agarwal16/My-Rights/assets/106222712/05ade6a9-37ef-4d3c-878a-063adbc3b2ff)
 
 
 ## Installation
