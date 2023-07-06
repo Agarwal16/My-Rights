@@ -36,7 +36,7 @@ class NewsFragment : Fragment() {
         newsAdapter = NewsAdapter(emptyList())
         recyclerView.adapter = newsAdapter
 
-//        swipeRefreshLayout.setColorSchemeResources(R.color.status_bar_color)
+        swipeRefreshLayout.setColorSchemeResources(R.color.status_bar_color)
         swipeRefreshLayout.setOnRefreshListener {
             loadNews()
         }
