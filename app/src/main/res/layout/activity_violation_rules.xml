@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Types"
+        android:textColor="@color/dark_blue"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardis1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="25dp">
+        <LinearLayout
+            android:backgroundTint="@color/light_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_bg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:text="1. Habeas Corpus"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="gravity"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_right_arrow"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardis2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="500dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="25dp">
+        <LinearLayout
+            android:backgroundTint="@color/dark_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_bg"/>
+
+        <!-- Card content here -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:text="2. Mandamus"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="gravity"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_right_arrow"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardis3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="25dp">
+        <LinearLayout
+            android:backgroundTint="@color/light_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_bg"/>
+
+        <!-- Card content here -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:text="3. Certiorari  "
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="gravity"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_right_arrow">
+
+        </ImageView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardis4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="25dp">
+        <LinearLayout
+            android:backgroundTint="@color/dark_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_bg"/>
+
+        <!-- Card content here -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:text="4. Prohibition  "
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="gravity"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_right_arrow">
+
+        </ImageView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardis5"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="25dp">
+        <LinearLayout
+            android:backgroundTint="@color/light_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_bg"/>
+
+        <!-- Card content here -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:text="5. Quo Warranto "
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="gravity"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_right_arrow">
+
+        </ImageView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

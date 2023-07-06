@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".Intro"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".Equality"
+            android:exported="false"
+            android:label="@string/title_activity_equality" />
+        <activity
+            android:name=".Freedom"
+            android:exported="false" />
+        <activity
+            android:name=".Exploitation"
+            android:exported="false" />
+        <activity
+            android:name=".Religion"
+            android:exported="false" />
+        <activity
+            android:name=".Cultural"
+            android:exported="false" />
+        <activity
+            android:name=".Remedies"
+            android:exported="false" />
+        <activity
+            android:name=".Freedom2"
+            android:exported="false" />
+        <activity
+            android:name=".Equality2"
+            android:exported="false" />
+        <activity
+            android:name=".Exploitation2"
+            android:exported="false" />
+        <activity
+            android:name=".Religion2"
+            android:exported="false" />
+        <activity
+            android:name=".Cultural2"
+            android:exported="false" />
+        <activity
+            android:name=".Remedies2"
+            android:exported="false" />
+        <activity
+            android:name=".Vote2"
+            android:exported="false" />
+        <activity
+            android:name=".Website"
+            android:exported="false" />
+        <activity
+            android:name=".VoilationRules"
+            android:exported="false" />
+        <activity
+            android:name=".Prohibition"
+            android:exported="false" />
+        <activity
+            android:name=".Quowarranto"
+            android:exported="false" />
+        <activity
+            android:name=".Cretoria"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamus"
+            android:exported="false" />
+        <activity
+            android:name=".HabesCorpus"
+            android:exported="false" />
+        <activity
+            android:name=".Hvedio"
+            android:exported="false" />
+        <activity
+            android:name=".Provedio"
+            android:exported="false" />
+        <activity
+            android:name=".Crevedio"
+            android:exported="false" />
+        <activity
+            android:name=".Quovedio"
+            android:exported="false" />
+        <activity
+            android:name=".Mandveedio"
+            android:exported="false" />
+        <activity
+            android:name=".Web2"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "51836019399",
+    "firebase_url": "https://login-7670e-default-rtdb.firebaseio.com",
+    "project_id": "login-7670e",
+    "storage_bucket": "login-7670e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51836019399:android:0d7751cd9c8de1939d14e2",
+        "android_client_info": {
+          "package_name": "com.example.myrights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51836019399-14mtlvot6dvpavdp1aojrckbjusvqtj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOmYlZlPcWG1BTCygvhyQI3NxJLyZ6dEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51836019399-14mtlvot6dvpavdp1aojrckbjusvqtj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
