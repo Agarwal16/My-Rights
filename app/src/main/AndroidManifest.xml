@@ -41,83 +41,83 @@
             android:name=".SignUpActivity"
             android:exported="true"/>
         <activity
-            android:name=".Equality"
+            android:name="com.example.myrights.viewmodel.equality.Equality"
             android:exported="false"
             android:label="@string/title_activity_equality" />
         <activity
-            android:name=".Freedom"
+            android:name="com.example.myrights.viewmodel.freedom.Freedom"
             android:exported="false" />
         <activity
-            android:name=".Exploitation"
+            android:name="com.example.myrights.viewmodel.exploitation.Exploitation"
             android:exported="false" />
         <activity
-            android:name=".Religion"
+            android:name="com.example.myrights.viewmodel.religion.Religion"
             android:exported="false" />
         <activity
-            android:name=".Cultural"
+            android:name=".viewmodel.cultural.Cultural"
             android:exported="false" />
         <activity
-            android:name=".Remedies"
+            android:name="com.example.myrights.viewmodel.remedies.Remedies"
             android:exported="false" />
         <activity
-            android:name=".Freedom2"
+            android:name="com.example.myrights.viewmodel.freedom.Freedom2"
             android:exported="false" />
         <activity
-            android:name=".Equality2"
+            android:name="com.example.myrights.viewmodel.equality.Equality2"
             android:exported="false" />
         <activity
-            android:name=".Exploitation2"
+            android:name="com.example.myrights.viewmodel.exploitation.Exploitation2"
             android:exported="false" />
         <activity
-            android:name=".Religion2"
+            android:name="com.example.myrights.viewmodel.religion.Religion2"
             android:exported="false" />
         <activity
-            android:name=".Cultural2"
+            android:name="com.example.myrights.viewmodel.cultural.Cultural2"
             android:exported="false" />
         <activity
-            android:name=".Remedies2"
+            android:name="com.example.myrights.viewmodel.remedies.Remedies2"
             android:exported="false" />
         <activity
-            android:name=".Vote2"
+            android:name="com.example.myrights.viewmodel.vote.Vote2"
             android:exported="false" />
         <activity
-            android:name=".Website"
+            android:name="com.example.myrights.viewmodel.Website"
             android:exported="false" />
         <activity
-            android:name=".VoilationRules"
+            android:name="com.example.myrights.viewmodel.violation.VoilationRules"
             android:exported="false" />
         <activity
-            android:name=".Prohibition"
+            android:name="com.example.myrights.viewmodel.violation.types.Prohibition"
             android:exported="false" />
         <activity
-            android:name=".Quowarranto"
+            android:name="com.example.myrights.viewmodel.violation.types.Quowarranto"
             android:exported="false" />
         <activity
-            android:name=".Cretoria"
+            android:name="com.example.myrights.viewmodel.violation.types.Cretoria"
             android:exported="false" />
         <activity
-            android:name=".Mandamus"
+            android:name="com.example.myrights.viewmodel.violation.types.Mandamus"
             android:exported="false" />
         <activity
-            android:name=".HabesCorpus"
+            android:name="com.example.myrights.viewmodel.violation.types.HabesCorpus"
             android:exported="false" />
         <activity
-            android:name=".Hvedio"
+            android:name="com.example.myrights.viewmodel.violation.video.Hvedio"
             android:exported="false" />
         <activity
-            android:name=".Provedio"
+            android:name="com.example.myrights.viewmodel.violation.video.Provedio"
             android:exported="false" />
         <activity
-            android:name=".Crevedio"
+            android:name="com.example.myrights.viewmodel.violation.video.Crevedio"
             android:exported="false" />
         <activity
-            android:name=".Quovedio"
+            android:name="com.example.myrights.viewmodel.violation.video.Quovedio"
             android:exported="false" />
         <activity
-            android:name=".Mandveedio"
+            android:name="com.example.myrights.viewmodel.violation.video.Mandveedio"
             android:exported="false" />
         <activity
-            android:name=".Web2"
+            android:name="com.example.myrights.viewmodel.Web2"
             android:exported="false" />
         <activity
             android:name=".Profile"

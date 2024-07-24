@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.myrights.databinding.ActivityMainBinding
+import com.example.myrights.fragments.HomeFragment
+import com.example.myrights.fragments.NewsFragment
+import com.example.myrights.fragments.ViolationFragment
+import com.example.myrights.fragments.VoteFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
