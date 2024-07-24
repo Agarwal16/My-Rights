@@ -18,7 +18,7 @@ class Freedom : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.more_freedom)
         button.setOnClickListener{
-            val intent = Intent(this, Freedom2::class.java)
+            val intent = Intent(this, Freedom::class.java)
             startActivity(intent)
         }
     }
